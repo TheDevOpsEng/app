@@ -1,14 +1,15 @@
+// src/App.js
 import React from 'react';
-import CategoriesView from './CategoriesView';
+import Dashboard from './components/Dashboard';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>AAC Communication App for Qasim</h1>
+        <h1>AAC App</h1>
       </header>
-      <CategoriesView />
+      <Dashboard />
     </div>
   );
 }

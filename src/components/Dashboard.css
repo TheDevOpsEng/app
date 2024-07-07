@@ -1,0 +1,39 @@
+/* src/components/Dashboard.css */
+.dashboard {
+    padding: 20px;
+  }
+  
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+  }
+  
+  .subcategories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .category, .subcategory {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category:hover, .subcategory:hover {
+    background-color: #e0e0e0;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  button {
+    margin-bottom: 20px;
+  }
+  
